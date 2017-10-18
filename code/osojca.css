@@ -1,0 +1,224 @@
+/*
+1. Reset
+2. Style globalne
+3. Typografia
+4. Nagłowek
+5. Style sekcji
+6. Stopka
+*/
+
+/*
+1. Reset
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+2. Style globalne
+*/
+body {
+    background-color: #ffffff;
+    color: #414141;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+}
+section {
+    text-align: center;
+    padding: 0 10%;
+}
+img {
+    max-width: 100%;
+}
+
+/*
+3. Typografia
+*/
+h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #1a7a71;
+    font-weight: 300;
+}
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/*
+4. Nagłowek
+*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url('graphics/Logo.svg') 2% 50% no-repeat #90c5ba;
+    color: #ffffff;
+    padding: 50px 0;
+}
+nav ul {
+    text-align: right;
+    margin: 0 20px
+}
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 15px;
+}
+nav a {
+    color: #ffffff;
+}
+nav a:hover {
+    color: #ee509b;
+}
+
+/*
+Style sekcji
+*/
+
+.section-top {
+    background: url('graphics/graphic.svg') 50% 100% no-repeat #90c5ba;
+    padding: 10px 0;
+}
+.section-top h1 {
+    color: #ffffff;
+    margin: 130px 0 10px;
+}
+.section-top h2 {
+    color: #e2efec;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.social-links {
+    margin: 30px auto 302px;
+}
+.social-links a{
+    margin: 0 10px;
+}   
+.section-me h1 {
+padding: 100px 0 0;
+}
+.section-me img { 
+    display: inline-block;
+    padding: 0 100px 50px 0;
+}
+.section-me p {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    transform: translateY(-100px);
+}
+.section-projects {
+    background-color: #f1f1f1;
+}
+.section-projects h1 {
+    padding: 100px 0 80px;
+}
+.section-projects img {
+    display: inline-block;
+    width: 35%;
+    padding: 10px 10px 100px;
+}
+.section-contact h1 {
+    padding: 100px 0 50px;
+}
+.section-contact p {
+    width: 440px;
+    margin: 0 auto 70px;
+}
+.section-contact input {
+    display: block;
+    margin: 0 auto 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    height: 40px;
+    width: 600px;
+    font-size: 16px;
+    padding: 0 0 0 15px;
+}
+.section-contact textarea {
+    display: block;
+    margin: 0 auto 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    width: 600px;
+    font-size: 16px;
+    padding: 15px 0 0 15px;
+}
+.section-contact button {
+    padding: 13px 70px;
+    background-color: #1a7a71;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 0 70px 0;
+}
+.section-contact button:hover {
+    padding: 13px 70px;
+    background-color: #c6e7e0;
+    color: #1a7a71;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 0 70px 0;
+}
+footer {
+    color: #1a7a71;
+    font-size: 14px;
+    text-align: center;
+    padding: 55px 0;
+    background-color: #90c5ba;
+}
+}
