@@ -6,6 +6,7 @@
     <title>Witaj na mojej stronie</title>
     <link rel="stylesheet" href="osojca.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300&amp;subset=latin-ext" rel="stylesheet">
+    <script src="osojca.js"></script>
 </head>
 <body>
     <header>
@@ -49,7 +50,7 @@
                     <input type="text" id="name" placeholder="Your Name">
                     <input type="email" id="email" placeholder="Your Email Address">
                     <textarea rows="8" id="message" placeholder="Your Message"></textarea>
-                    <button type="submit">Send</button>
+                    <button type="submit" onclick="sendMail(); return false">Send</button>
                 </form>
             </div>
         </section>
