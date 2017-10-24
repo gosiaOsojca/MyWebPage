@@ -73,7 +73,7 @@ a {
     text-decoration: none;
 }
 section {
-    text-align: center;
+    
     padding: 0 10%;
 }
 img {
@@ -99,11 +99,12 @@ p {
 */
 
 nav {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: url('graphics/Logo.svg') 2% 50% no-repeat #90c5ba;
+    background: url('graphics/logo.png') 2% 50% no-repeat #90c5ba;
     color: #ffffff;
     padding: 50px 0;
 }
@@ -128,8 +129,9 @@ Style sekcji
 */
 
 .section-top {
-    background: url('graphics/graphic.svg') 50% 100% no-repeat #90c5ba;
+    background: url('graphics/graphic.png') 50% 100% no-repeat #90c5ba;
     padding: 10px 0;
+    text-align: center;
 }
 .section-top h1 {
     color: #ffffff;
@@ -145,7 +147,10 @@ Style sekcji
 }
 .social-links a{
     margin: 0 10px;
-}   
+}
+.section-me {
+text-align: center;
+}
 .section-me h1 {
 padding: 100px 0 0;
 }
@@ -161,6 +166,7 @@ padding: 100px 0 0;
 }
 .section-projects {
     background-color: #f1f1f1;
+    text-align: center;
 }
 .section-projects h1 {
     padding: 100px 0 80px;
@@ -177,9 +183,12 @@ padding: 100px 0 0;
     width: 440px;
     margin: 0 auto 70px;
 }
+.section-contact {
+    text-align: center;
+}
 .section-contact input {
     display: block;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
     border: 1px solid #d9d9d9;
     border-radius: 2px;
     height: 40px;
@@ -220,5 +229,4 @@ footer {
     text-align: center;
     padding: 55px 0;
     background-color: #90c5ba;
-}
 }
